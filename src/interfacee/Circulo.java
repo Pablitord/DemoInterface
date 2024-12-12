@@ -8,7 +8,7 @@ public class Circulo implements FiguraGeometrica {
 	@Override
 	public double calcularArea() {
 		
-		return Pi * Math.pow(r, 2);
+		return Pi * Math.pow(r, 2); //Math.pow para eleavr al cuadrado
 	}
 
 	public double getPi() {
